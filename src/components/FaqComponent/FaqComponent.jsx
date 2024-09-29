@@ -18,7 +18,7 @@ const FaqComponent = () => {
             {/* FAQ Item 1 */}
             <div className="accordion-item">
            
-              <a
+              <div
                 className="accordion-header"
                 role="button"
                 onClick={() => toggleAccordion(1)}
@@ -28,7 +28,7 @@ const FaqComponent = () => {
                   <i className={expanded === 1 ? 'fa fa-chevron-down' : 'fa fa-chevron-right'} />
                 </div>
                 <div className="accordion-title">How does the free trial work?</div>
-              </a>
+              </div>
               {expanded === 1 && (
                 <div className="accordion-content">
                   <p>
@@ -47,7 +47,7 @@ const FaqComponent = () => {
 
             {/* FAQ Item 2 */}
             <div className="accordion-item">
-              <a
+              <div
                 className="accordion-header"
                 role="button"
                 onClick={() => toggleAccordion(2)}
@@ -59,7 +59,7 @@ const FaqComponent = () => {
                 <div className="accordion-title">
                   What is included with my Audible Premium Plus membership?
                 </div>
-              </a>
+              </div>
               {expanded === 2 && (
                 <div className="accordion-content">
                   <p>As an Audible member, your subscription includes:</p>
@@ -74,7 +74,7 @@ const FaqComponent = () => {
 
             {/* FAQ Item 3 */}
             <div className="accordion-item">
-              <a 
+              <div 
                 className="accordion-header"
                 role="button"
                 onClick={() => toggleAccordion(3)}
@@ -86,7 +86,7 @@ const FaqComponent = () => {
                 <div className="accordion-title">
                   Are there additional benefits for Amazon Prime members?
                 </div>
-              </a>
+              </div>
               {expanded === 3 && (
                 <div className="accordion-content">
                   <p>
@@ -100,7 +100,7 @@ const FaqComponent = () => {
 
             {/* FAQ Item 4 */}
             <div className="accordion-item">
-              <a 
+              <div 
                 className="accordion-header"
                 role="button"
                 onClick={() => toggleAccordion(4)}
@@ -110,7 +110,7 @@ const FaqComponent = () => {
                   <i className={expanded === 4 ? 'fa fa-chevron-down' : 'fa fa-chevron-right'} />
                 </div>
                 <div className="accordion-title">What happens if I want to cancel?</div>
-              </a>
+              </div>
               {expanded === 4 && (
                 <div className="accordion-content">
                   <p>

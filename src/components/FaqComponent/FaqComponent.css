@@ -18,17 +18,15 @@
   }
   
   .accordion-item {
-    
+    cursor: pointer;
     margin-bottom: 10px;
   }
   
   .accordion-header {
     display: flex;
     align-items: center;
-    padding: 10px 0;
-    cursor: pointer;
+    padding: 10px 0;    
     color: #fff;
-    text-decoration: none;
   }
   
   .accordion-icon {

@@ -1,0 +1,31 @@
+.header-container .header-section .container .menu-left ul {
+    display: flex;
+    justify-content: center;
+}
+.header-container .header-section .container .menu-left ul li {
+    font-size: 14px;
+    line-height: 20px;
+    list-style-type: none;
+    margin: 0 20px 0 0;
+    position: relative;
+    color: #010E19;
+    font-weight: 600;
+}
+.header-container .header-section .container .menu-right{
+    
+    width: 40%;
+}
+.header-container .header-section .container .menu-right input{
+    background-color: #fff;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 2px;
+    display: inline-block;
+    height: 40px;
+    line-height: 38px;
+    font-size: 13px;
+    -webkit-transition: all .1s linear;
+    transition: all .1s linear;
+    padding: 0 16px;
+    width: 100%;
+}

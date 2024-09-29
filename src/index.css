@@ -1,13 +1,22 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: 'Audible Sans';
+  src: url('./assets/fonts/AudibleSans-Lt.woff2') format('woff2'),
+       url('./assets/fonts/AudibleSans-Lt.woff2') format('truetype'); /* Fallback for browsers that do not support WOFF2 */
+  font-weight: normal;
+  font-style: normal;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+body{
+  color: #010E19;
+  background-color: #FFF;
+  font-family: "Audible Sans", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+}
+

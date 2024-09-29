@@ -1,0 +1,35 @@
+.browse-popup {
+    position: absolute;
+    background-color: #FFF;
+    border: 1px solid rgba(1, 14, 25, .25);
+    border-radius: 4px;
+    padding: 15px;
+    width: 180px;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .25);
+    top: 120px;
+    left: 350px;
+    z-index: 100; 
+    display: block; 
+}
+
+.browse-popup h3 {
+    margin-bottom: 10px;
+}
+
+.browse-categories {
+    display: flex;
+    flex-direction: column;
+}
+
+.category {
+    margin-bottom: 10px;
+}
+
+.category h4 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.menu-left li:hover .browse-popup {
+    display: block;
+}

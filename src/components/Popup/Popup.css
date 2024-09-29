@@ -1,0 +1,53 @@
+.popup-container {
+    position: absolute;
+    top: 0;
+    left: 150px; 
+    width: 250px;
+    padding: 16px;
+    background-color: white;
+    border: 1px solid rgba(1, 14, 25, .25);
+    border-radius: 4px;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .25);
+    z-index: 100;
+  }
+  .popup-container ul {
+    list-style-type: none;
+    margin-bottom: 15px;
+    padding: 0;
+  }
+  .popup-container ul li{
+    font-size: 14px;
+    line-height: 20px;
+    color: #010E19;
+  }
+  .popup-container ul li h2 {
+    font-size: 20px;
+    line-height: 26px;
+    color: #010E19;
+    font-weight: 700;
+  }
+  
+  .popup-container ul li.text-small {
+    font-size: 13px;
+    line-height: 19px;
+    color: #061624;
+  }
+  .popup-container p{
+    font-size: 14px;
+    line-height: 19px;
+    padding-bottom: 15px;
+    margin-top: 0;
+    color: #010E19;
+    border-bottom: 1px solid rgba(1, 14, 25, .15);;
+  }
+  
+  popup-right {
+    left: 100%;
+    margin-left: 10px;
+  }
+  
+  .popup-left {
+    right: 100%;
+    margin-right: 10px;
+  }
+  

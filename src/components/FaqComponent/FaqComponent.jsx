@@ -17,8 +17,8 @@ const FaqComponent = () => {
             
             {/* FAQ Item 1 */}
             <div className="accordion-item">
+           
               <a
-                href='/'
                 className="accordion-header"
                 role="button"
                 onClick={() => toggleAccordion(1)}
@@ -48,7 +48,6 @@ const FaqComponent = () => {
             {/* FAQ Item 2 */}
             <div className="accordion-item">
               <a
-                href='/'
                 className="accordion-header"
                 role="button"
                 onClick={() => toggleAccordion(2)}
@@ -75,7 +74,7 @@ const FaqComponent = () => {
 
             {/* FAQ Item 3 */}
             <div className="accordion-item">
-              <a href='/'
+              <a 
                 className="accordion-header"
                 role="button"
                 onClick={() => toggleAccordion(3)}
@@ -101,7 +100,7 @@ const FaqComponent = () => {
 
             {/* FAQ Item 4 */}
             <div className="accordion-item">
-              <a href='/'
+              <a 
                 className="accordion-header"
                 role="button"
                 onClick={() => toggleAccordion(4)}
